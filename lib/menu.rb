@@ -4,9 +4,9 @@ class Menu
 
   puts 'Esse é o menu principal'
   puts 'Digite 1 para calcular a media'
-  option = gets  
+  option = gets.chomp
 
-  if option != '1'
+  if option == '1'
     Text.media 
   end
 end
