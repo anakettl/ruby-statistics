@@ -11,7 +11,7 @@ class Text
       arr << input.to_i
     end
     
-    media = Calc.media(x.to_i,y.to_i)
+    media = Calc.media(arr)
 
     puts "A media dos valores é: #{media}"
   end

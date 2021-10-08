@@ -1,6 +1,13 @@
 class Calc
-  def self.media(x,y)
-    (x+y)/2
+  def self.media(arr)
+    soma = 0
+    n = 0
+    arr.each do |value|
+      soma += value
+      n+=1
+    end 
+
+    soma/n
   end
 
   def self.moda(arr)
